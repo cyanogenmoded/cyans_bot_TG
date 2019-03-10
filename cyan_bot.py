@@ -6,7 +6,7 @@ from random import randint
 import logging
 from googleapiclient.discovery import build
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-updater = Updater(token='675526257:AAGMTku84y3SOjoxuGEECHmRzVDXBEeKomQ')
+updater = Updater(token='<token>')
 dispatcher = updater.dispatcher
 results=[]
 
